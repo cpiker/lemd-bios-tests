@@ -1,0 +1,29 @@
+
+================================
+ BIOS Data Area Report          
+ Leading Edge Model D -- bdainfo
+================================
+
+-- Equipment Word (0040:0010) --
+  Raw hex    : 0x527F
+  Binary     : 01010 0100 1111 111
+  Bit  0     floppy installed    : Yes
+  Bits [7:6] floppy count        : 2
+  Bit  1     8087 FPU            : Yes
+  Bits [3:2] board RAM (PC only) : 64 KB (PC-class field)
+  Bits [5:4] display adapter     : 0x30  MDA monochrome [SWITCH: MDA]
+        ^^^ correct for enhanced mono graphics
+  Bit  8     DMA chip            : Present
+  Bits[11:9] serial ports        : 1
+  Bit  12    game port           : Yes
+  Bits[15:14] LPT ports          : 1
+
+-- Other BDA Fields -------------
+  Conventional memory : 640 KB
+  Video mode (0049h)  : 0x07
+  Screen columns      : 80
+  KB shift flags 1   : 0x00
+  KB shift flags 2   : 0x00
+  IRQ0 tick counter  : 0x00000xF515
+
+================================
